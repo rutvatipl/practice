@@ -1,0 +1,58 @@
+﻿@model IEnumerable<eCommerce.Models.product>
+
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>Product</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+        Category Details
+    </div>
+    <a class="nav-link" href="../Admin/Product">
+        <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+        Add New
+    </a>
+    <div class="card-body">
+        <table id="datatablesSimple">
+            <thead>
+                <tr>
+                    <th>Product Id</th>
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tfoot>
+
+                <tr>
+                    <th>Product Id</th>
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.p_id</td>
+                        <td>@item.p_name</td>
+                        <td>@item.product_price</td> 
+                        <td>@item.p_status</td>
+                        <td>@Html.ActionLink("Edit","productEdit",new { productId = item.p_id })</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>

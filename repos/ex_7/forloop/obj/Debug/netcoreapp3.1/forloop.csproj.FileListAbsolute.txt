@@ -1,0 +1,13 @@
+C:\Users\Rutva\source\repos\ex_7\forloop\bin\Debug\netcoreapp3.1\forloop.exe
+C:\Users\Rutva\source\repos\ex_7\forloop\bin\Debug\netcoreapp3.1\forloop.deps.json
+C:\Users\Rutva\source\repos\ex_7\forloop\bin\Debug\netcoreapp3.1\forloop.runtimeconfig.json
+C:\Users\Rutva\source\repos\ex_7\forloop\bin\Debug\netcoreapp3.1\forloop.runtimeconfig.dev.json
+C:\Users\Rutva\source\repos\ex_7\forloop\bin\Debug\netcoreapp3.1\forloop.dll
+C:\Users\Rutva\source\repos\ex_7\forloop\bin\Debug\netcoreapp3.1\forloop.pdb
+C:\Users\Rutva\source\repos\ex_7\forloop\obj\Debug\netcoreapp3.1\forloop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rutva\source\repos\ex_7\forloop\obj\Debug\netcoreapp3.1\forloop.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\ex_7\forloop\obj\Debug\netcoreapp3.1\forloop.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\ex_7\forloop\obj\Debug\netcoreapp3.1\forloop.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\ex_7\forloop\obj\Debug\netcoreapp3.1\forloop.dll
+C:\Users\Rutva\source\repos\ex_7\forloop\obj\Debug\netcoreapp3.1\forloop.pdb
+C:\Users\Rutva\source\repos\ex_7\forloop\obj\Debug\netcoreapp3.1\forloop.genruntimeconfig.cache

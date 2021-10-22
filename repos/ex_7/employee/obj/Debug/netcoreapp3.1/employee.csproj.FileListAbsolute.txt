@@ -1,0 +1,14 @@
+C:\Users\Rutva\source\repos\ex_7\employee\bin\Debug\netcoreapp3.1\employee.exe
+C:\Users\Rutva\source\repos\ex_7\employee\bin\Debug\netcoreapp3.1\employee.deps.json
+C:\Users\Rutva\source\repos\ex_7\employee\bin\Debug\netcoreapp3.1\employee.runtimeconfig.json
+C:\Users\Rutva\source\repos\ex_7\employee\bin\Debug\netcoreapp3.1\employee.runtimeconfig.dev.json
+C:\Users\Rutva\source\repos\ex_7\employee\bin\Debug\netcoreapp3.1\employee.dll
+C:\Users\Rutva\source\repos\ex_7\employee\bin\Debug\netcoreapp3.1\employee.pdb
+C:\Users\Rutva\source\repos\ex_7\employee\obj\Debug\netcoreapp3.1\employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rutva\source\repos\ex_7\employee\obj\Debug\netcoreapp3.1\employee.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\ex_7\employee\obj\Debug\netcoreapp3.1\employee.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\ex_7\employee\obj\Debug\netcoreapp3.1\employee.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\ex_7\employee\obj\Debug\netcoreapp3.1\employee.dll
+C:\Users\Rutva\source\repos\ex_7\employee\obj\Debug\netcoreapp3.1\employee.pdb
+C:\Users\Rutva\source\repos\ex_7\employee\obj\Debug\netcoreapp3.1\employee.genruntimeconfig.cache
+C:\Users\Rutva\source\repos\ex_7\employee\obj\Debug\netcoreapp3.1\employee.csproj.AssemblyReference.cache

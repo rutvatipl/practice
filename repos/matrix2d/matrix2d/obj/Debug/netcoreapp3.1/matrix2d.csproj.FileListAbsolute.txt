@@ -1,0 +1,13 @@
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\bin\Debug\netcoreapp3.1\matrix2d.exe
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\bin\Debug\netcoreapp3.1\matrix2d.deps.json
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\bin\Debug\netcoreapp3.1\matrix2d.runtimeconfig.json
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\bin\Debug\netcoreapp3.1\matrix2d.runtimeconfig.dev.json
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\bin\Debug\netcoreapp3.1\matrix2d.dll
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\bin\Debug\netcoreapp3.1\matrix2d.pdb
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\obj\Debug\netcoreapp3.1\matrix2d.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\obj\Debug\netcoreapp3.1\matrix2d.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\obj\Debug\netcoreapp3.1\matrix2d.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\obj\Debug\netcoreapp3.1\matrix2d.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\obj\Debug\netcoreapp3.1\matrix2d.dll
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\obj\Debug\netcoreapp3.1\matrix2d.pdb
+C:\Users\Rutva\source\repos\matrix2d\matrix2d\obj\Debug\netcoreapp3.1\matrix2d.genruntimeconfig.cache

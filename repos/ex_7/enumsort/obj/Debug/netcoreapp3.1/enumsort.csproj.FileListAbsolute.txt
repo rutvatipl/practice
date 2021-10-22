@@ -1,0 +1,13 @@
+C:\Users\Rutva\source\repos\ex_7\enumsort\bin\Debug\netcoreapp3.1\enumsort.exe
+C:\Users\Rutva\source\repos\ex_7\enumsort\bin\Debug\netcoreapp3.1\enumsort.deps.json
+C:\Users\Rutva\source\repos\ex_7\enumsort\bin\Debug\netcoreapp3.1\enumsort.runtimeconfig.json
+C:\Users\Rutva\source\repos\ex_7\enumsort\bin\Debug\netcoreapp3.1\enumsort.runtimeconfig.dev.json
+C:\Users\Rutva\source\repos\ex_7\enumsort\bin\Debug\netcoreapp3.1\enumsort.dll
+C:\Users\Rutva\source\repos\ex_7\enumsort\bin\Debug\netcoreapp3.1\enumsort.pdb
+C:\Users\Rutva\source\repos\ex_7\enumsort\obj\Debug\netcoreapp3.1\enumsort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rutva\source\repos\ex_7\enumsort\obj\Debug\netcoreapp3.1\enumsort.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\ex_7\enumsort\obj\Debug\netcoreapp3.1\enumsort.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\ex_7\enumsort\obj\Debug\netcoreapp3.1\enumsort.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\ex_7\enumsort\obj\Debug\netcoreapp3.1\enumsort.dll
+C:\Users\Rutva\source\repos\ex_7\enumsort\obj\Debug\netcoreapp3.1\enumsort.pdb
+C:\Users\Rutva\source\repos\ex_7\enumsort\obj\Debug\netcoreapp3.1\enumsort.genruntimeconfig.cache

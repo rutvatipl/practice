@@ -1,0 +1,14 @@
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\bin\Debug\netcoreapp3.1\dublicatarray.exe
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\bin\Debug\netcoreapp3.1\dublicatarray.deps.json
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\bin\Debug\netcoreapp3.1\dublicatarray.runtimeconfig.json
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\bin\Debug\netcoreapp3.1\dublicatarray.runtimeconfig.dev.json
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\bin\Debug\netcoreapp3.1\dublicatarray.dll
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\bin\Debug\netcoreapp3.1\dublicatarray.pdb
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\obj\Debug\netcoreapp3.1\dublicatarray.csproj.AssemblyReference.cache
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\obj\Debug\netcoreapp3.1\dublicatarray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\obj\Debug\netcoreapp3.1\dublicatarray.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\obj\Debug\netcoreapp3.1\dublicatarray.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\obj\Debug\netcoreapp3.1\dublicatarray.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\obj\Debug\netcoreapp3.1\dublicatarray.dll
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\obj\Debug\netcoreapp3.1\dublicatarray.pdb
+C:\Users\Rutva\source\repos\dublicatarray\dublicatarray\obj\Debug\netcoreapp3.1\dublicatarray.genruntimeconfig.cache

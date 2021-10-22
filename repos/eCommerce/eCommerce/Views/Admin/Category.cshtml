@@ -1,0 +1,53 @@
+﻿@model List<eCommerce.Models.category>
+    @{
+        ViewBag.Title = "Category";
+        Layout = "~/Views/Shared/Admin_Layout.cshtml";
+    }
+
+    <h2>Category</h2>
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            Category Details
+        </div>
+        <a class="nav-link" href="../Admin/Add786Category">
+            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+            Add New
+        </a>
+        <div class="card-body">
+            <table id="datatablesSimple">
+                <thead>
+                    <tr>
+                        <th>Category Id</th>
+                        <th>Category Name</th>
+                        <th>ParentId</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tfoot>
+
+                    <tr>
+                        <th>Category Id</th>
+                        <th>Category Name</th>
+                        <th>ParentId</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.category_id</td>
+                            <td>@item.category_name</td>
+                            <td>@item.parent_category_id</td>
+                            <td>@item.category_status</td>
+                            <td><a href="#">Edit</a></td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>

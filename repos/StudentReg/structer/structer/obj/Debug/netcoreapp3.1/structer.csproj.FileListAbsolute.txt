@@ -1,0 +1,14 @@
+C:\Users\Rutva\source\repos\structer\structer\bin\Debug\netcoreapp3.1\structer.exe
+C:\Users\Rutva\source\repos\structer\structer\bin\Debug\netcoreapp3.1\structer.deps.json
+C:\Users\Rutva\source\repos\structer\structer\bin\Debug\netcoreapp3.1\structer.runtimeconfig.json
+C:\Users\Rutva\source\repos\structer\structer\bin\Debug\netcoreapp3.1\structer.runtimeconfig.dev.json
+C:\Users\Rutva\source\repos\structer\structer\bin\Debug\netcoreapp3.1\structer.dll
+C:\Users\Rutva\source\repos\structer\structer\bin\Debug\netcoreapp3.1\structer.pdb
+C:\Users\Rutva\source\repos\structer\structer\obj\Debug\netcoreapp3.1\structer.csproj.AssemblyReference.cache
+C:\Users\Rutva\source\repos\structer\structer\obj\Debug\netcoreapp3.1\structer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rutva\source\repos\structer\structer\obj\Debug\netcoreapp3.1\structer.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\structer\structer\obj\Debug\netcoreapp3.1\structer.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\structer\structer\obj\Debug\netcoreapp3.1\structer.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\structer\structer\obj\Debug\netcoreapp3.1\structer.dll
+C:\Users\Rutva\source\repos\structer\structer\obj\Debug\netcoreapp3.1\structer.pdb
+C:\Users\Rutva\source\repos\structer\structer\obj\Debug\netcoreapp3.1\structer.genruntimeconfig.cache

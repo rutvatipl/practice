@@ -1,0 +1,13 @@
+C:\Users\Rutva\source\repos\ex_7\ex11\bin\Debug\netcoreapp3.1\ex11.exe
+C:\Users\Rutva\source\repos\ex_7\ex11\bin\Debug\netcoreapp3.1\ex11.deps.json
+C:\Users\Rutva\source\repos\ex_7\ex11\bin\Debug\netcoreapp3.1\ex11.runtimeconfig.json
+C:\Users\Rutva\source\repos\ex_7\ex11\bin\Debug\netcoreapp3.1\ex11.runtimeconfig.dev.json
+C:\Users\Rutva\source\repos\ex_7\ex11\bin\Debug\netcoreapp3.1\ex11.dll
+C:\Users\Rutva\source\repos\ex_7\ex11\bin\Debug\netcoreapp3.1\ex11.pdb
+C:\Users\Rutva\source\repos\ex_7\ex11\obj\Debug\netcoreapp3.1\ex11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rutva\source\repos\ex_7\ex11\obj\Debug\netcoreapp3.1\ex11.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\ex_7\ex11\obj\Debug\netcoreapp3.1\ex11.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\ex_7\ex11\obj\Debug\netcoreapp3.1\ex11.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\ex_7\ex11\obj\Debug\netcoreapp3.1\ex11.dll
+C:\Users\Rutva\source\repos\ex_7\ex11\obj\Debug\netcoreapp3.1\ex11.pdb
+C:\Users\Rutva\source\repos\ex_7\ex11\obj\Debug\netcoreapp3.1\ex11.genruntimeconfig.cache

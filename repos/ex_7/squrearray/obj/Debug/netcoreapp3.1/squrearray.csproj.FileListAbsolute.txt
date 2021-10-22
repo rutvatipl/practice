@@ -1,0 +1,13 @@
+C:\Users\Rutva\source\repos\ex_7\squrearray\bin\Debug\netcoreapp3.1\squrearray.exe
+C:\Users\Rutva\source\repos\ex_7\squrearray\bin\Debug\netcoreapp3.1\squrearray.deps.json
+C:\Users\Rutva\source\repos\ex_7\squrearray\bin\Debug\netcoreapp3.1\squrearray.runtimeconfig.json
+C:\Users\Rutva\source\repos\ex_7\squrearray\bin\Debug\netcoreapp3.1\squrearray.runtimeconfig.dev.json
+C:\Users\Rutva\source\repos\ex_7\squrearray\bin\Debug\netcoreapp3.1\squrearray.dll
+C:\Users\Rutva\source\repos\ex_7\squrearray\bin\Debug\netcoreapp3.1\squrearray.pdb
+C:\Users\Rutva\source\repos\ex_7\squrearray\obj\Debug\netcoreapp3.1\squrearray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rutva\source\repos\ex_7\squrearray\obj\Debug\netcoreapp3.1\squrearray.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\ex_7\squrearray\obj\Debug\netcoreapp3.1\squrearray.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\ex_7\squrearray\obj\Debug\netcoreapp3.1\squrearray.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\ex_7\squrearray\obj\Debug\netcoreapp3.1\squrearray.dll
+C:\Users\Rutva\source\repos\ex_7\squrearray\obj\Debug\netcoreapp3.1\squrearray.pdb
+C:\Users\Rutva\source\repos\ex_7\squrearray\obj\Debug\netcoreapp3.1\squrearray.genruntimeconfig.cache

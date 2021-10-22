@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MVCwithoutentity.Models.Json>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" id="tbldata">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dob)
+        </th>
+        <th></th>
+    </tr>
+
+
+
+</table>
+<script>
+    $(function () {
+        $.get("get_data", {}, function (data) {
+            var row;
+            $.each(data, function (i, v1) {
+                row += "<tr><td>" + v1.name + "</td><td>" + v1.email + "</td><td>" + v1.gender + "</td><td>" + v1.dob + "</tr></td>"
+            });
+            $("#tbldata").append(row);
+        })
+    })
+</script>

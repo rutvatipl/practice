@@ -1,0 +1,14 @@
+C:\Users\Rutva\source\repos\enum\enum\bin\Debug\netcoreapp3.1\enum.exe
+C:\Users\Rutva\source\repos\enum\enum\bin\Debug\netcoreapp3.1\enum.deps.json
+C:\Users\Rutva\source\repos\enum\enum\bin\Debug\netcoreapp3.1\enum.runtimeconfig.json
+C:\Users\Rutva\source\repos\enum\enum\bin\Debug\netcoreapp3.1\enum.runtimeconfig.dev.json
+C:\Users\Rutva\source\repos\enum\enum\bin\Debug\netcoreapp3.1\enum.dll
+C:\Users\Rutva\source\repos\enum\enum\bin\Debug\netcoreapp3.1\enum.pdb
+C:\Users\Rutva\source\repos\enum\enum\obj\Debug\netcoreapp3.1\enum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rutva\source\repos\enum\enum\obj\Debug\netcoreapp3.1\enum.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\enum\enum\obj\Debug\netcoreapp3.1\enum.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\enum\enum\obj\Debug\netcoreapp3.1\enum.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\enum\enum\obj\Debug\netcoreapp3.1\enum.dll
+C:\Users\Rutva\source\repos\enum\enum\obj\Debug\netcoreapp3.1\enum.pdb
+C:\Users\Rutva\source\repos\enum\enum\obj\Debug\netcoreapp3.1\enum.genruntimeconfig.cache
+C:\Users\Rutva\source\repos\enum\enum\obj\Debug\netcoreapp3.1\enum.csproj.AssemblyReference.cache

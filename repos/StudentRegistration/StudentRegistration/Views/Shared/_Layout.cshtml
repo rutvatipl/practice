@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="icon" href=@Url.Content("~/Content/images/favicon.ico") type="image/x-icon" />
+    @Styles.Render("~/Content/css / bootstrap / bootstrap.min.css")
+    @Styles.Render("~/Content/css/font-awesome/all.css")
+    @Styles.Render("~/Content/css / owl-carousel / owl.carousel.min.css")
+    @Styles.Render("~/Content/css/style.css")
+    @Styles.Render("~/Content/css / media.css")
+
+
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+
+    </div>
+
+    @*<script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap/popper.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/owl-carousel/owl.carousel.js"></script>*@
+    @Scripts.Render("~/Content/jquery.min.js")
+    @Scripts.Render("~/Content/bootstrap/popper.min.js")
+    @Scripts.Render("~/Content/bootstrap/bootstrap.min.js")
+    @Scripts.Render("~/Content/custom.js")
+    @Scripts.Render("~/Content/owl-carousel/owl.carousel.js")
+    @Scripts.Render("~/Content/bundles/jquery")
+    @Scripts.Render("~/Content/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

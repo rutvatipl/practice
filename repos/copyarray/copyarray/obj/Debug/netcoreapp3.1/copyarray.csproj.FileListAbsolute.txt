@@ -1,0 +1,14 @@
+C:\Users\Rutva\source\repos\copyarray\copyarray\bin\Debug\netcoreapp3.1\copyarray.exe
+C:\Users\Rutva\source\repos\copyarray\copyarray\bin\Debug\netcoreapp3.1\copyarray.deps.json
+C:\Users\Rutva\source\repos\copyarray\copyarray\bin\Debug\netcoreapp3.1\copyarray.runtimeconfig.json
+C:\Users\Rutva\source\repos\copyarray\copyarray\bin\Debug\netcoreapp3.1\copyarray.runtimeconfig.dev.json
+C:\Users\Rutva\source\repos\copyarray\copyarray\bin\Debug\netcoreapp3.1\copyarray.dll
+C:\Users\Rutva\source\repos\copyarray\copyarray\bin\Debug\netcoreapp3.1\copyarray.pdb
+C:\Users\Rutva\source\repos\copyarray\copyarray\obj\Debug\netcoreapp3.1\copyarray.csproj.AssemblyReference.cache
+C:\Users\Rutva\source\repos\copyarray\copyarray\obj\Debug\netcoreapp3.1\copyarray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rutva\source\repos\copyarray\copyarray\obj\Debug\netcoreapp3.1\copyarray.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\copyarray\copyarray\obj\Debug\netcoreapp3.1\copyarray.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\copyarray\copyarray\obj\Debug\netcoreapp3.1\copyarray.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\copyarray\copyarray\obj\Debug\netcoreapp3.1\copyarray.dll
+C:\Users\Rutva\source\repos\copyarray\copyarray\obj\Debug\netcoreapp3.1\copyarray.pdb
+C:\Users\Rutva\source\repos\copyarray\copyarray\obj\Debug\netcoreapp3.1\copyarray.genruntimeconfig.cache

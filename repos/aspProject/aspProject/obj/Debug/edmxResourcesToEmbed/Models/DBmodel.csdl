@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="tipltraineeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="e_id" />
+    </Key>
+    <Property Name="e_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="firstname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="lastname" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="phone_no" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="salary1" Relationship="Self.FK_salary1_salary" FromRole="employee" ToRole="salary1" />
+  </EntityType>
+  <EntityType Name="salary1">
+    <Key>
+      <PropertyRef Name="s_id" />
+      <PropertyRef Name="salary" />
+    </Key>
+    <Property Name="s_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="e_id" Type="Int32" />
+    <Property Name="salary" Type="Int32" Nullable="false" />
+    <Property Name="dob" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="employee" Relationship="Self.FK_salary1_salary" FromRole="salary1" ToRole="employee" />
+  </EntityType>
+  <Association Name="FK_salary1_salary">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="salary1" Type="Self.salary1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="e_id" />
+      </Principal>
+      <Dependent Role="salary1">
+        <PropertyRef Name="e_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBmodel" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="employees" EntityType="Self.employee" />
+    <EntitySet Name="salary1" EntityType="Self.salary1" />
+    <AssociationSet Name="FK_salary1_salary" Association="Self.FK_salary1_salary">
+      <End Role="employee" EntitySet="employees" />
+      <End Role="salary1" EntitySet="salary1" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

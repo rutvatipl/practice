@@ -18,5 +18,6 @@ namespace eCommerce.Models
         public int product_id { get; set; }
         public string customer_id { get; set; }
         public int cartstatusid { get; set; }
+        public Nullable<int> quantity { get; set; }
     }
 }

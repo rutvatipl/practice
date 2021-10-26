@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -145,11 +146,12 @@ namespace eCommerce.Controllers
 
         // POST: aadmin/Create
         [HttpPost]
-        public ActionResult CreateProduct(product pro)
+        public ActionResult CreateProduct(product pro, HttpPostedFileBase file)
         {
 
             try
             {
+                
                 using (DBmodel db = new DBmodel())
                 {
                     db.products.Add(pro);
@@ -204,5 +206,41 @@ namespace eCommerce.Controllers
                 return View();
             }
         }
+        public ActionResult Loginadmin()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Loginadmin(Login objUser)
+        {
+            if (ModelState.IsValid)
+            {
+                using (DBmodel db = new DBmodel())
+                {
+                    var obj = db.Logins.Where(a => a.email.Equals(objUser.email) && a.password.Equals(objUser.password)).FirstOrDefault();
+                    if (obj != null)
+                    {
+                        Session["email"] = obj.email.ToString();
+                        Session["password"] = obj.password.ToString();
+                        return RedirectToAction("UserDashBoard");
+                    }
+                }
+            }
+            return View(objUser);
+        }
+
+        public ActionResult UserDashBoard()
+        {
+            if (Session["email"] != null)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Loginadmin");
+            }
+        }
+
     }
 }

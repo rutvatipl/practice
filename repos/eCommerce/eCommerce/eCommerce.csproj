@@ -167,6 +167,7 @@
     <Compile Include="Models\feedbake.cs">
       <DependentUpon>DBmodel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\item.cs" />
     <Compile Include="Models\Login.cs">
       <DependentUpon>DBmodel.tt</DependentUpon>
     </Compile>
@@ -286,6 +287,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="image\samsung.jpg" />
+    <Content Include="image\samsung2.png" />
+    <Content Include="image\oppo.png" />
+    <Content Include="image\lg.jfif" />
     <Content Include="Models\DBmodel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DBmodel.Context.cs</LastGenOutput>
@@ -364,6 +369,12 @@
     <Content Include="Views\aadmin\Editproduct.cshtml" />
     <Content Include="Views\Demo\DtLocation.cshtml" />
     <Content Include="Views\aadmin\Add.cshtml" />
+    <Content Include="Views\Ecommerce\Loginuser.cshtml" />
+    <Content Include="Views\aadmin\Loginadmin.cshtml" />
+    <Content Include="Views\aadmin\UserDashBoard.cshtml" />
+    <Content Include="Views\Ecommerce\UserDashBoard.cshtml" />
+    <Content Include="Views\Ecommerce\NewProduct.cshtml" />
+    <Content Include="Views\Ecommerce\AddtoCart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

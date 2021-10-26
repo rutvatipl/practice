@@ -25,7 +25,9 @@ namespace eCommerce.Models
         public int product_price { get; set; }
         [Required(ErrorMessage = "Description is Required...")]
         public string p_desc { get; set; }
+        [Required(ErrorMessage = "is Required...")]
         public string p_img { get; set; }
+        public HttpPostedFileBase file { get; set; }
         public Nullable<bool> p_status { get; set; }
         public string category_id { get; set; }
         public Nullable<System.DateTime> createddate { get; set; }

@@ -46,7 +46,7 @@ namespace ECommerceSite.Controllers
                     db.SaveChanges();
                 }
 
-                return RedirectToAction("Index");
+                return RedirectToAction("CreateUserLogin");
             }
             catch
             {
@@ -59,30 +59,8 @@ namespace ECommerceSite.Controllers
             return View();
         }
 
-        // POST: ecommerce/Create
-        [HttpPost]
-        public ActionResult CreateLogin(Login lg)
-        {
-            try
-            {
-                using (DBmodel db = new DBmodel())
-                {
+        //POST: ecommerce/Create
 
-                    if (ModelState.IsValid)
-                    {
-                        db.Logins.Add(lg);
-                        db.SaveChanges();
-                    }
-                    return RedirectToAction("Index");
-                }
-
-                // return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
 
         public ActionResult CreateUserLogin()
         {
@@ -113,6 +91,8 @@ namespace ECommerceSite.Controllers
                 return View();
             }
         }
+
+
         // GET: ecommerce/Edit/5
         public ActionResult Edit(int id)
         {
@@ -155,6 +135,41 @@ namespace ECommerceSite.Controllers
             {
                 return View();
             }
+
+        }
+        //public ActionResult NewProduct()
+        //{
+        //    return View();
+        //}
+
+        // POST: aadmin/Create
+      
+        public ActionResult NewProduct()
+        {
+
+          
+                using (DBmodel db = new DBmodel())
+                {
+                   return View( db.products.ToList());
+                 
+                }
+
+          
+        }
+        public ActionResult AddtoCart(int productid)
+        {
+            DBmodel db = new DBmodel();
+            List<item> cart = new List<item>();
+            var prod = db.products.Find(productid);
+            cart.Add(new item()
+            {
+                pro = prod,
+                quantity = 1
+            });
+            Session["cart"] = cart;
+
+
+                return Redirect("Index");
         }
     }
 }

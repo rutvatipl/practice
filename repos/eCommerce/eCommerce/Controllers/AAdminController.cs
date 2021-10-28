@@ -100,27 +100,37 @@ namespace eCommerce.Controllers
                 return View();
             }
         }
-
+        [HttpGet]
         // GET: aadmin/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            using (DBmodel db = new DBmodel())
+            {
+                return View(db.products.Where(x => x.p_id == id).FirstOrDefault());
+            }
+
         }
 
-        // POST: aadmin/Delete/5
+        // POST: ecommerce/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
             try
             {
                 // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
+                using (DBmodel db = new DBmodel())
+                {
+                    product prod = db.products.Where(x => x.p_id == id).FirstOrDefault();
+                    db.products.Remove(prod);
+                    db.SaveChanges();
+                }
+                return RedirectToAction("dashboard");
             }
             catch
             {
                 return View();
             }
+
         }
         public ActionResult product(string option, string search)
         {

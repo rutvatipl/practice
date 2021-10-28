@@ -41,7 +41,7 @@
           <Property Name="email" Type="varchar" MaxLength="254" />
           <Property Name="mobile" Type="varchar" MaxLength="50" />
           <Property Name="password" Type="nvarchar(max)" />
-          <Property Name="cpassword" Type="varchar" MaxLength="50" />
+          <Property Name="cpassword" Type="nvarchar(max)" />
           <Property Name="profile" Type="varchar" MaxLength="50" />
           <Property Name="country" Type="varchar" MaxLength="50" />
           <Property Name="state" Type="varchar" MaxLength="50" />
@@ -171,7 +171,7 @@
           <Property Name="email" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
           <Property Name="mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="cpassword" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="cpassword" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="profile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="state" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />

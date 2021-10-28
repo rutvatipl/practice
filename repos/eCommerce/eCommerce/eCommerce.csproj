@@ -133,6 +133,7 @@
     <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Controllers\EcommerceController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Crypto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -146,6 +147,7 @@
       <DependentUpon>DBmodel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CategoryDetails.cs" />
+    <Compile Include="Models\rem.cs" />
     <Compile Include="Models\customer_reg.cs">
       <DependentUpon>DBmodel.tt</DependentUpon>
     </Compile>
@@ -164,6 +166,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DBmodel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Extended\customer_reg.cs" />
     <Compile Include="Models\feedbake.cs">
       <DependentUpon>DBmodel.tt</DependentUpon>
     </Compile>
@@ -180,6 +183,7 @@
     <Compile Include="Models\product.cs">
       <DependentUpon>DBmodel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ResetPassword.cs" />
     <Compile Include="Models\role.cs">
       <DependentUpon>DBmodel.tt</DependentUpon>
     </Compile>
@@ -352,7 +356,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Ecommerce\Index.cshtml" />
     <Content Include="Views\Ecommerce\Create.cshtml" />
-    <Content Include="Views\Ecommerce\CreateLogin.cshtml" />
     <Content Include="Views\Ecommerce\CreateUserLogin.cshtml" />
     <Content Include="Views\Shared\Admin_Layout.cshtml" />
     <Content Include="Views\Admin\Dashboard.cshtml" />
@@ -375,6 +378,11 @@
     <Content Include="Views\Ecommerce\UserDashBoard.cshtml" />
     <Content Include="Views\Ecommerce\NewProduct.cshtml" />
     <Content Include="Views\Ecommerce\AddtoCart.cshtml" />
+    <Content Include="Views\Ecommerce\VarifyAccount.cshtml" />
+    <Content Include="Views\Ecommerce\CreateLogin.cshtml" />
+    <Content Include="Views\Ecommerce\ForgotPassword.cshtml" />
+    <Content Include="Views\Ecommerce\ResetPassword.cshtml" />
+    <Content Include="Views\aadmin\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

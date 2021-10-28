@@ -159,8 +159,8 @@ D:\gitup\practice\repos\eCommerce\eCommerce\bin\System.Web.WebPages.Razor.xml
 D:\gitup\practice\repos\eCommerce\eCommerce\bin\Newtonsoft.Json.xml
 D:\gitup\practice\repos\eCommerce\eCommerce\bin\Antlr3.Runtime.pdb
 D:\gitup\practice\repos\eCommerce\eCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\gitup\practice\repos\eCommerce\eCommerce\obj\Debug\eCommerce.csproj.AssemblyReference.cache
 D:\gitup\practice\repos\eCommerce\eCommerce\obj\Debug\eCommerce.csproj.CoreCompileInputs.cache
 D:\gitup\practice\repos\eCommerce\eCommerce\obj\Debug\eCommerce.csproj.CopyComplete
 D:\gitup\practice\repos\eCommerce\eCommerce\obj\Debug\eCommerce.dll
 D:\gitup\practice\repos\eCommerce\eCommerce\obj\Debug\eCommerce.pdb
+D:\gitup\practice\repos\eCommerce\eCommerce\obj\Debug\eCommerce.csproj.AssemblyReference.cache

@@ -36,7 +36,7 @@
     <Property Name="email" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
     <Property Name="mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="cpassword" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cpassword" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="profile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="state" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />

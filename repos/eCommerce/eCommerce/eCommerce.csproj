@@ -353,8 +353,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Ecommerce\Index.cshtml" />
     <Content Include="Views\Ecommerce\Create.cshtml" />
     <Content Include="Views\Ecommerce\CreateUserLogin.cshtml" />
     <Content Include="Views\Shared\Admin_Layout.cshtml" />
@@ -383,6 +381,8 @@
     <Content Include="Views\Ecommerce\ForgotPassword.cshtml" />
     <Content Include="Views\Ecommerce\ResetPassword.cshtml" />
     <Content Include="Views\aadmin\Delete.cshtml" />
+    <Content Include="Views\Ecommerce\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

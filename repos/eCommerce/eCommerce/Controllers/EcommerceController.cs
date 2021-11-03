@@ -22,7 +22,7 @@ namespace ECommerceSite.Controllers
             {
 
 
-                return View(db.customer_reg.ToList());
+                return View(db.products.ToList());
             }
         }
 

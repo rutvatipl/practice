@@ -296,20 +296,48 @@ namespace ECommerceSite.Controllers
 
 
         }
-        public ActionResult AddtoCart(int productid)
+        public ActionResult AddtoCart(int ?id)
         {
-            DBmodel db = new DBmodel();
-            List<item> cart = new List<item>();
-            var prod = db.products.Find(productid);
-            cart.Add(new item()
+            using (DBmodel db = new DBmodel())
             {
-                pro = prod,
-                quantity = 1
-            });
-            Session["cart"] = cart;
+                //var v = db.products.Where(a => a.p_id == id).FirstOrDefault();
+                //return View(v);
+                return View(db.products.Where(x => x.p_id == id).FirstOrDefault());
+            }
+           
+        }
+        List<cart> li = new List<cart>();
+        [HttpPost]
+        public ActionResult AddtoCart(product p_id, string quantity, int id)
+        {
+            using (DBmodel db = new DBmodel())
+            {
+                var v = db.products.Where(a => a.p_id == id).FirstOrDefault();
+
+                cart c = new cart();
+                c.product_id = v.p_id;
+                c.price = v.product_price;
+                c.quantity = Convert.ToInt32(quantity);
+                c.bill = c.price * c.quantity;
 
 
-            return Redirect("Index");
+                if (TempData["cart"] == null)
+                {
+                    li.Add(c);
+                    TempData["cart"] = li;
+
+                }
+                else
+                {
+                    List<cart> li2 = TempData["cart"] as List<cart>;
+                    li2.Add(c);
+                    TempData["cart"] = li2;
+                }
+
+                TempData.Keep();
+                return RedirectToAction("product");
+            }
+
         }
         [HttpGet]
         public ActionResult registration()

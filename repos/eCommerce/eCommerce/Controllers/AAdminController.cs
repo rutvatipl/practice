@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using eCommerce.Models;
 
+
 namespace eCommerce.Controllers
 {
     public class aadminController : Controller
@@ -162,8 +163,14 @@ namespace eCommerce.Controllers
             try
             {
                 
+                
                 using (DBmodel db = new DBmodel())
                 {
+                    //string path = Server.MapPath("~/image");
+                    //string fileName = Path.GetFileName(file.FileName);
+                    //string fullpath = Path.Combine(path, fileName);
+                    //file.SaveAs(fullpath);
+
                     db.products.Add(pro);
                     db.SaveChanges();
                 }
@@ -175,16 +182,7 @@ namespace eCommerce.Controllers
                 return View();
             }
         }
-        [HttpGet]
-        public ActionResult Add()
-        {
-            return View();
-        }
-        [HttpPost]
-        public ActionResult Add(product img)
-        {
-            return View();
-        }
+       
 
         // GET: aadmin/Edit/5
         public ActionResult Editproduct(int id)
@@ -227,6 +225,7 @@ namespace eCommerce.Controllers
             if (ModelState.IsValid)
             {
                 using (DBmodel db = new DBmodel())
+                     
                 {
                     var obj = db.Logins.Where(a => a.email.Equals(objUser.email) && a.password.Equals(objUser.password)).FirstOrDefault();
                     if (obj != null)

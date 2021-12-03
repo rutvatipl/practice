@@ -4,6 +4,8 @@
     <EntitySetMapping Name="carts">
       <EntityTypeMapping TypeName="tipltraineeModel.cart">
         <MappingFragment StoreEntitySet="cart">
+          <ScalarProperty Name="bill" ColumnName="bill" />
+          <ScalarProperty Name="price" ColumnName="price" />
           <ScalarProperty Name="quantity" ColumnName="quantity" />
           <ScalarProperty Name="cartid" ColumnName="cartid" />
           <ScalarProperty Name="product_id" ColumnName="product_id" />

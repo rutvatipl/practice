@@ -7,7 +7,7 @@
       <Diagram DiagramId="bc1b324a48034abb8efec290d07c8c28" Name="Diagram1">
         <EntityTypeShape EntityType="tipltraineeModel.cart" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="tipltraineeModel.cartstatu" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="tipltraineeModel.category" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="tipltraineeModel.category" Width="1.5" PointX="0.625" PointY="3.5" IsExpanded="true" />
         <EntityTypeShape EntityType="tipltraineeModel.customer_reg" Width="1.5" PointX="2.875" PointY="2.5" IsExpanded="true" />
         <EntityTypeShape EntityType="tipltraineeModel.feedbake" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="tipltraineeModel.Login" Width="1.5" PointX="4.75" PointY="2.75" IsExpanded="true" />

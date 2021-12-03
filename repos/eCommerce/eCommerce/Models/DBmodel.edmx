@@ -14,6 +14,8 @@
           <Property Name="customer_id" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="cartstatusid" Type="int" Nullable="false" />
           <Property Name="quantity" Type="int" />
+          <Property Name="price" Type="int" />
+          <Property Name="bill" Type="int" />
         </EntityType>
         <EntityType Name="cartstatus">
           <Key>
@@ -50,6 +52,13 @@
           <Property Name="ActivationCode" Type="uniqueidentifier" />
           <Property Name="ResetPasswordCode" Type="nvarchar" MaxLength="100" />
         </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'tipltrainee.trainee.dbsport' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="dbsport">
+          <Property Name="sport_id" Type="int" />
+          <Property Name="sport_name" Type="nchar" MaxLength="10" />
+          <Property Name="sport_leader" Type="nchar" MaxLength="10" />
+        </EntityType>-->
         <EntityType Name="feedbake">
           <Key>
             <PropertyRef Name="f_id" />
@@ -58,6 +67,11 @@
           <Property Name="f_list" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="f_comment" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'tipltrainee.trainee.image' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="image">
+          <Property Name="File" Type="image" />
+        </EntityType>-->
         <EntityType Name="Login">
           <Key>
             <PropertyRef Name="id" />
@@ -96,6 +110,8 @@
           <Property Name="createddate" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
           <Property Name="quantity" Type="int" Nullable="false" />
         </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'tipltrainee.trainee.Reg' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="roles">
           <Key>
             <PropertyRef Name="roleid" />
@@ -118,6 +134,12 @@
           <Property Name="amountpaid" Type="decimal" Precision="18" Scale="0" Nullable="false" />
           <Property Name="paymenttype" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'tipltrainee.trainee.stud_table' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'tipltrainee.trainee.tiplLogin' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'tipltrainee.trainee.trainee.sports_medal' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityContainer Name="tipltraineeModelStoreContainer">
           <EntitySet Name="cart" EntityType="Self.cart" Schema="trainee" store:Type="Tables" />
           <EntitySet Name="cartstatus" EntityType="Self.cartstatus" Schema="trainee" store:Type="Tables" />
@@ -144,6 +166,8 @@
           <Property Name="customer_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="cartstatusid" Type="Int32" Nullable="false" />
           <Property Name="quantity" Type="Int32" />
+          <Property Name="price" Type="Int32" />
+          <Property Name="bill" Type="Int32" />
         </EntityType>
         <EntityType Name="cartstatu">
           <Key>
@@ -270,6 +294,8 @@
           <EntitySetMapping Name="carts">
             <EntityTypeMapping TypeName="tipltraineeModel.cart">
               <MappingFragment StoreEntitySet="cart">
+                <ScalarProperty Name="bill" ColumnName="bill" />
+                <ScalarProperty Name="price" ColumnName="price" />
                 <ScalarProperty Name="quantity" ColumnName="quantity" />
                 <ScalarProperty Name="cartid" ColumnName="cartid" />
                 <ScalarProperty Name="product_id" ColumnName="product_id" />

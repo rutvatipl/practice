@@ -9,6 +9,8 @@
     <Property Name="customer_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="cartstatusid" Type="Int32" Nullable="false" />
     <Property Name="quantity" Type="Int32" />
+    <Property Name="price" Type="Int32" />
+    <Property Name="bill" Type="Int32" />
   </EntityType>
   <EntityType Name="cartstatu">
     <Key>
